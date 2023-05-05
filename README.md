@@ -10,7 +10,7 @@ In this project, we focus on traffic flow optimization by simulating different t
 Our simulation is written in Python and uses the Multithreading library to create a realistic simulation of the intersection and traffic flow. We also use Pandas and NumPy for data analysis and matplotlib for data visualization.
 
 ## Usage
-To run the simulation, simply download the code and run Intersectopm.py in your Python environment. The simulation will display a visual representation of the intersection and traffic flow, as well as data on wait times, traffic volume, and other metrics.
+To run the simulation, simply download the code and run `python Intersection.py` in your Python environment. The simulation will display a visual representation of the intersection and traffic flow, as well as data on wait times, traffic volume, and other metrics.
 
 ## Results
 After running various simulations with different traffic signal designs, we found that a combination of round-robin scheduling and dynamic signal timing provided the most efficient traffic flow. By dynamically adjusting signal timing based on traffic volume and congestion, we were able to reduce wait times and increase overall traffic throughput.
